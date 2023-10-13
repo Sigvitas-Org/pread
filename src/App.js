@@ -13,19 +13,19 @@ function App() {
   const [claimedWord, setClaimedWord] = useState("NA");
   const [abstractWord, setAbstractWord] = useState("NA");
   const [fileContent, setFileContent] = useState("");
-  const [sections, setSections] = useState([]);
+  // const [sections, setSections] = useState([]);
   const [errorMessage, setErrorMessage] = useState("");
   const [showFileContent, setShowFileContent] = useState(false);
   const [modifiedTitle, setModifiedTitle] = useState("NA");
-  const [originalTitle, setOriginalTitle] = useState("");
+  // const [originalTitle, setOriginalTitle] = useState("");
   const [wordCount, setWordCount] = useState(0);
   const [imgCount, setImgCount] = useState(0);
-  const [totalclaims, setTotalClaims] = useState(0);
-  const [independentClaims, setIndependentClaims] = useState(0);
-  const [dependentClaims, setDependentClaims] = useState(0);
-  const [dependentClaimNumbers, setDependentClaimNumbers] = useState(0);
-  const [paragraphsInClaims, setParagraphsInClaims] = useState(0);
-  const [paragraphCount, setParagraphCount] = useState(0);
+  // const [totalclaims, setTotalClaims] = useState(0);
+  // const [independentClaims, setIndependentClaims] = useState(0);
+  // const [dependentClaims, setDependentClaims] = useState(0);
+  // const [dependentClaimNumbers, setDependentClaimNumbers] = useState(0);
+  // const [paragraphsInClaims, setParagraphsInClaims] = useState(0);
+  // const [paragraphCount, setParagraphCount] = useState(0);
   const [dependent, setdependent] = useState(0);
   const [independent, setIndependent] = useState(0);
   const [total, setTotal] = useState(0);
@@ -34,7 +34,7 @@ function App() {
   const [showClaimContent, setShowClaimContent] = useState(false);
   const [independentClaimLists, setIndependentClaimLists] = useState("");
   const [dependentClaimLists, setDependentClaimLists] = useState("");
-  const [showQr, setShowQr] = useState(false);
+  // const [showQr, setShowQr] = useState(false);
 
   const handleFileChange = async (e) => {
     const file = e.target.files[0];
