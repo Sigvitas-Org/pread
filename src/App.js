@@ -272,12 +272,12 @@ function App() {
           const totalFigs = Rx1 + Rx2;
           setImgCount(totalFigs);
 
-          const imageRegex =
-            /FIGS\.\s?\d+([A-Za-z\(\)]+)?\s?(?:to(?!.*and)|-(?!.*and))\s?\d+([A-Za-z\(\)]+)?/gi; //without and
-          debugger;
-          const matches1 = descriptionText.match(imageRegex);
-          const uniqueMatches1 = [...new Set(matches1)];
-          console.log("jii", uniqueMatches1);
+          // const imageRegex =
+          //   /FIGS\.\s?\d+([A-Za-z\(\)]+)?\s?(?:to(?!.*and)|-(?!.*and))\s?\d+([A-Za-z\(\)]+)?/gi; //without and
+          // debugger;
+          // const matches1 = descriptionText.match(imageRegex);
+          // const uniqueMatches1 = [...new Set(matches1)];
+          // console.log("jii", uniqueMatches1);
         }
         setFileContent(text);
         setSentenceCount(text.split(".").length);
